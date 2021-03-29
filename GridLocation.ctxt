@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=GridLocation
+comment0.text=\r\n\ Part\ of\ the\ solution\ to\ Project\ 3.\r\n\ \r\n\ Represents\ one\ 2-dimensional\ grid\ location.\r\n\ \r\n\ @author\ lewis63\ \r\n\ @version\ 2019.11.12\r\n
+comment1.params=row\ col
+comment1.target=GridLocation(int,\ int)
+comment1.text=\r\n\ Sets\ the\ grid\ location.\r\n\ \r\n\ @param\ row\ the\ row\ of\ this\ grid\ location\r\n\ @param\ col\ the\ column\ of\ this\ grid\ location\r\n
+comment2.params=
+comment2.target=int\ getRow()
+comment2.text=\r\n\ Gets\ the\ row\ of\ this\ location\ in\ the\ grid.\r\n\ \r\n\ @return\ the\ row\ value\ \r\n
+comment3.params=
+comment3.target=int\ getCol()
+comment3.text=\r\n\ Gets\ the\ column\ of\ this\ location\ in\ the\ grid.\r\n\ \r\n\ @return\ the\ column\ value\ \r\n
+numComments=4

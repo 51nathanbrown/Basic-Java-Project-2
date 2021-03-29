@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SchellingSim
+comment0.text=\r\n\ Project\ 3\ main\ application\ class.\r\n\ \r\n\ This\ is\ the\ main\ class\ of\ an\ app\ that\ presents\ a\ simulation\ of\ the\ model\r\n\ created\ by\ economist\ Thomas\ Schelling\ to\ help\ explain\ self-segregation.\r\n\ \r\n\ @author\ lewis63\r\n\ @version\ 2019.11.12\r\n
+comment1.params=primaryStage
+comment1.target=void\ start(javafx.stage.Stage)
+comment1.text=\r\n\ Presents\ the\ simulation\ window\ with\ buttons\ to\ run\ and\ reset\ the\r\n\ simulation.\r\n\ \r\n\ @param\ primaryStage\ the\ main\ application\ window\r\n
+comment2.params=event
+comment2.target=void\ handleStep(javafx.event.ActionEvent)
+comment2.text=\r\n\ Handles\ the\ user\ pressing\ the\ Step\ button\ by\ performing\ one\ step\ of\r\n\ the\ simulation\ and\ updating\ the\ display.\r\n\ @param\ event\ the\ event\ representing\ the\ button\ being\ pushed\r\n
+comment3.params=event
+comment3.target=void\ handleRun(javafx.event.ActionEvent)
+comment3.text=\r\n\ Handles\ the\ user\ pressing\ the\ Run\ button\ by\ repeatedly\ performing\ steps\r\n\ of\ the\ simulation\ until\ all\ agents\ are\ satisfied.\r\n\ @param\ event\ the\ event\ representing\ the\ button\ being\ pushed\r\n
+comment4.params=event
+comment4.target=void\ handleReset(javafx.event.ActionEvent)
+comment4.text=\r\n\ Resets\ the\ simulation\ to\ an\ initial\ random\ state.\r\n\ @param\ event\ the\ event\ representing\ the\ button\ being\ pushed\r\n
+comment5.params=
+comment5.target=void\ updateRoundData()
+comment5.text=\r\n\ Updates\ the\ round\ and\ satisfaction\ data\ displayed\ in\ the\ simulation\r\n\ window.\r\n
+numComments=6

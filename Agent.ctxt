@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Agent
+comment0.text=\r\n\ Part\ of\ the\ solution\ to\ Project\ 3.\r\n\ \r\n\ Represents\ a\ simulation\ agent\ using\ a\ square\ of\ a\ particular\ color.\r\n\ A\ white\ agent\ represents\ an\ unoccupied\ grid\ cell.\r\n\ \r\n\ @author\ lewis63\r\n\ @version\ 2019.11.12\r\n
+comment1.params=row\ col\ color
+comment1.target=Agent(int,\ int,\ javafx.scene.paint.Color)
+comment1.text=\r\n\ Sets\ the\ agent's\ display\ location\ (based\ on\ the\ specified\ row\ and\r\n\ column)\ as\ well\ as\ the\ agent's\ color.\r\n\ \r\n\ @param\ row\ the\ grid\ row\ for\ this\ agent\r\n\ @param\ col\ the\ grid\ column\ for\ this\ agent\r\n\ @param\ color\ the\ color\ of\ this\ agent\r\n
+comment2.params=
+comment2.target=javafx.scene.shape.Rectangle\ getSquare()
+comment2.text=\r\n\ Gets\ the\ rectangle\ (square)\ representing\ this\ agent.\r\n\ @return\ the\ square\ representing\ this\ agent\ \r\n
+comment3.params=
+comment3.target=javafx.scene.paint.Color\ getColor()
+comment3.text=\r\n\ Gets\ the\ color\ of\ this\ agent.\r\n\ @return\ the\ color\ of\ this\ agent\ \r\n
+comment4.params=color
+comment4.target=void\ setColor(javafx.scene.paint.Color)
+comment4.text=\r\n\ Sets\ the\ color\ of\ this\ agent.\r\n\ \r\n\ @param\ color\ the\ new\ color\ for\ this\ agent\r\n
+comment5.params=
+comment5.target=boolean\ isVacant()
+comment5.text=\r\n\ Determines\ if\ this\ agent\ represents\ a\ vacant\ (white)\ location.\r\n\ @return\ true\ if\ location\ is\ vacant\ and\ false\ otherwise\r\n
+numComments=6
